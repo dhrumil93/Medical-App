@@ -17,7 +17,6 @@ const Services = () => {
   return (
     <div className="pt-20 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-28">
-        {/* Left Content */}
         <div className="lg:w-1/2 mt-12 lg:mt-24">
           <h1 className="text-4xl font-bold text-gray-800 mb-6 animate-fade-in">
             Our Speciality
@@ -26,7 +25,6 @@ const Services = () => {
             Curabitur egestas consequat lorem, vel fermentum augue porta id. Aliquam lobortis magna neque, gravida consequat velit venenatis at.
           </p>
 
-          {/* Speciality Tags */}
           <div className="flex flex-wrap gap-4 mt-10">
             {specialities.map((specialty) => (
               <span
@@ -42,13 +40,12 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Right Illustration */}
         <div className="lg:w-1/2 relative">
           <div className="relative w-full max-w-[500px] mx-auto">
-            {/* Background Circle */}
+            
             <div className="absolute inset-0 rounded-full transform -translate-x-10 translate-y-10 z-0"></div>
             
-            {/* Main Illustration */}
+        
             <img
               src={doctorIllustration}
               alt="Doctor Illustration"
@@ -58,7 +55,6 @@ const Services = () => {
               }}
             />
 
-            {/* Floating Icons with Pulse Effect */}
             <div className="absolute top-10 right-20 bg-green-500 p-3 rounded-full shadow-lg animate-pulse z-20">
               <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />

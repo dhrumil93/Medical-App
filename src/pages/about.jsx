@@ -35,9 +35,7 @@ const About = () => {
   return (
     <div className="pt-20 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* Left Section */}
         <div className="flex flex-col">
-          {/* Text Content */}
           <div className="mb-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-4 animate-fade-in">
               Clinic Facilities
@@ -47,7 +45,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Circle Image with Error Handling */}
           <div className="relative w-[400px] h-[400px] mx-auto lg:mx-0">
             <div className="absolute w-[300px] h-[300px] bg-pink-100 rounded-full left-10 top-10 animate-pulse" />
             <div className="absolute w-[400px] h-[400px] rounded-full border-2 border-blue-100 opacity-30 animate-spin-slow" />
@@ -67,12 +64,10 @@ const About = () => {
           </div>
         </div>
 
-        {/* Right Section - Cards */}
         <div className="flex flex-col h-full">
-          {/* See All Button */}
           <div className="flex justify-end mb-4">
             <button 
-              onClick={() => {/* Add your click handler here */}}
+              onClick={() => {}}
               className="group bg-blue-50 text-blue-600 hover:bg-blue-100 font-semibold flex items-center gap-2 px-3 py-1.5 rounded-lg transition-all duration-300 text-sm"
             >
               SEE ALL
@@ -87,7 +82,6 @@ const About = () => {
             </button>
           </div>
 
-          {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center mt-4">
             {facilities.map((facility) => (
               <div 
@@ -111,7 +105,7 @@ const About = () => {
                   </p>
                   <button 
                     className="text-white bg-blue-500 px-3 py-2 rounded-md hover:bg-blue-600 transition-all duration-300 text-sm font-medium w-fit flex items-center gap-1.5 group"
-                    onClick={() => {/* Add your click handler here */}}
+                    onClick={() => {}}
                   >
                     SEE DETAIL
                     <span className="transform group-hover:translate-x-1 transition-transform">→</span>

@@ -45,12 +45,12 @@ const Rating = () => {
             key={testimonial.id}
             className="bg-white rounded-[2rem] p-8 flex flex-col items-center text-center max-w-sm transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
-            {/* Comment */}
+         
             <p className="text-gray-600 mb-6">
               {testimonial.comment}
             </p>
 
-            {/* Star Rating */}
+          
             <div className="flex gap-1 mb-6">
               {[...Array(testimonial.rating)].map((_, index) => (
                 <svg 
@@ -64,7 +64,7 @@ const Rating = () => {
               ))}
             </div>
 
-            {/* Profile */}
+      
             <div className="flex flex-col items-center">
               <img 
                 src={testimonial.image} 
@@ -82,7 +82,7 @@ const Rating = () => {
         ))}
       </div>
 
-      {/* Navigation Dots */}
+  
       <div className="flex justify-center gap-2 mt-8">
         {[...Array(6)].map((_, index) => (
           <button

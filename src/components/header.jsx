@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <header className="bg-white w-100 fixed top-0 left-0 right-0 z-50 mx-16">
       <div className="container mx-auto px-4 flex items-center justify-between py-4">
-        {/* Logo/Icon */}
         <div className="flex items-center space-x-2">
           <img
             src="\src\assets\Landsacpe.svg"
@@ -13,8 +12,6 @@ const Header = () => {
             className="w-100 h-10"
           />
         </div>
-
-        {/* Menu */}
         <nav className="hidden md:flex space-x-8">
           <a
             href="#"
@@ -47,8 +44,6 @@ const Header = () => {
             Contact
           </a>
         </nav>
-
-        {/* Buttons */}
         <div className="flex items-center space-x-4">
           <button className="text-gray-600 font-medium hover:text-green-500 transition">
             Login

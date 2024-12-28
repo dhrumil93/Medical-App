@@ -26,7 +26,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Right Image */}
+    
           <div className="md:w-1/2">
             <img 
               src={image} 
@@ -37,9 +37,9 @@ const Home = () => {
         </div>
 
         
-        {/* Features Section */}
+    
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {/* Business Solution */}
+         
           <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-50 transition-colors duration-300">
             <h2 className="text-xl font-bold text-gray-800 mb-3">
               Business Solution
@@ -49,7 +49,7 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Free project quote */}
+   
           <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-50 transition-colors duration-300">
             <h2 className="text-xl font-bold text-gray-800 mb-3">
               Free project quote
@@ -59,7 +59,7 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Nulla lobortis nunc */}
+      
           <div className="p-6 bg-white rounded-lg shadow-md hover:bg-blue-50 transition-colors duration-300">
             <h2 className="text-xl font-bold text-gray-800 mb-3">
               Nulla lobortis nunc
