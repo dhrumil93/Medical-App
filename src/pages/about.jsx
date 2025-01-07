@@ -64,7 +64,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-full w-full">
           <div className="flex justify-end mb-4">
             <button 
               onClick={() => {}}
@@ -82,11 +82,11 @@ const About = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center mt-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-72 justify-items-center   mt-auto">
             {facilities.map((facility) => (
               <div 
                 key={facility.id} 
-                className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:shadow-lg transition-all duration-300 hover:-translate-y-1 w-[250px] h-[320px] mb-6"
+                className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:shadow-lg transition-all duration-300 hover:-translate-y-1 w-[250px] h-[320px] mb-6 m-4"
               >
                 <div className="h-[160px] overflow-hidden">
                   <img 
